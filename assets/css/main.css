@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 100%;
+    color: rgb(222, 222, 222);
+    height: 70px;
+    line-height: 70px;
+}
+
+.navbar h1 {
+    float: left;
+}
+
+.navbar ul {
+    text-decoration: none;
+    float: right;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar ul li:hover,
+.navbar h1:hover {
+    color: white;
+}
+
+body {
+    background-image: url(../../images/bg-masthead.jpg);
+    background-size: cover;
+    opacity: 1.5;
+    text-align: center;
+}
+
+.content {
+    color: rgb(255, 254, 254);
+    margin: 0 auto;
+    width: 65%;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 49px;
+}
+
+.content hr {
+    margin-top: 55px;
+    width: 65px;
+    margin: 15px auto;
+    height: 5px;
+    background-color: #f4623a;
+    border: 2px solid #f4623a;
+}
+
+.content2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content p {
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    width: 65%;
+}
+
+.content2 p {
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    width: 60%;
+}
+
+button {
+    font-weight: 900;
+    color: white;
+    border: 2px solid #f4623a;
+    border-radius: 60px;
+    width: 280px;
+    height: 85px;
+    background-color: #f4623a;
+    margin: 25px;
+}
+
+button:hover {
+    border: 2px solid #cc4f2c;
+    background-color: #cc4f2c;
+}
